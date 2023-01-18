@@ -3,27 +3,70 @@
   flex-grow: 1;
 }
 
-.main-wrapper {
-  display: flex;
-  width: 100%;
-  overflow: hidden;
+.mb-bg {
+  background: rgb(38, 64, 139);
+  background: linear-gradient(
+    90deg,
+    rgba(38, 64, 139, 1) 0%,
+    rgba(38, 64, 139, 1) 35%,
+    rgba(70, 187, 0, 1) 100%
+  );
 }
 
-.slider {
+.slide {
+  height: 100%;
   display: flex;
-  min-width: 100vw;
+  align-items: center;
+  justify-content: center;
 
-  &__container {
-    display: grid;
-    gap: 1rem;
-    max-width: 1200px;
+  &--container {
+    display: flex;
     padding: 2rem;
-    margin: auto;
-    grid-template-areas: "slider__text slider__images";
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 2rem;
   }
 
-  h1 {
-    margin: 0;
+  &__img img {
+    max-width: 552px;
+  }
+}
+
+.slide__txt,
+.slide__img {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+.slide__txt {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+
+  h1,
+  a {
+    line-height: 1;
+  }
+
+  p {
+    line-height: 1.4;
+  }
+}
+
+.slide__buttons {
+  display: flex;
+  gap: 0.75rem;
+
+  a {
+    padding: 0.75rem 1rem;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 0.25rem;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+  }
+
+  .github {
+    background: transparent;
+    border-color: white;
   }
 }

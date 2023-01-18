@@ -27,3 +27,59 @@ body {
     align-items: center;
   }
 }
+
+// Carousel Home
+
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+
+.p-element {
+  flex-grow: 1;
+  h1,
+  p {
+    margin: 0;
+  }
+
+  .p-carousel,
+  .p-carousel-content,
+  .p-carousel-container,
+  .p-carousel-items-container {
+    height: 100%;
+    max-width: 100vw;
+  }
+
+  .p-carousel-content,
+  .p-carousel-container {
+    position: relative;
+  }
+
+  .p-carousel-container {
+    background-color: red;
+  }
+
+  .p-carousel .p-carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .p-carousel-prev,
+  .p-carousel-next {
+    position: absolute;
+    z-index: 999;
+  }
+
+  .p-carousel-next {
+    right: 0;
+  }
+}
+
+// Carousel Home
