@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
       {
         title: 'My Balance',
         text: 'Web application for financial control created using the Angular framework.',
-        background: 'mb-bg',
+        projectClass: 'my-balance',
         hostedUrl: 'https://my-balance-clouds83.vercel.app/reports',
         githubUrl: 'https://github.com/clouds83/my-balance2',
         imgUrl: 'assets/img/my-balance-home_552.png',
@@ -24,15 +24,15 @@ export class HomeComponent implements OnInit {
       {
         title: 'CLIPZ',
         text: 'Short video platform for the gaming niche.',
-        background: 'blue',
+        projectClass: 'clipz',
         hostedUrl: 'https://game-clips-clouds83.vercel.app/',
         githubUrl: 'https://github.com/clouds83/game-clips',
         imgUrl: 'assets/img/clipz-home_552.png',
       },
       {
         title: 'MovieDB',
-        text: 'Website that lists movies using a public API',
-        background: 'red',
+        text: 'Website that lists movies using a public API.',
+        projectClass: 'movie-db',
         hostedUrl: 'https://movie-db-clouds83.vercel.app/',
         githubUrl: 'https://github.com/clouds83/movie-db',
         imgUrl: 'assets/img/moviedb-home_552.png',

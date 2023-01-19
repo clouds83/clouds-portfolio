@@ -1,6 +1,9 @@
 body {
   font-family: "Inter", sans-serif;
   margin: 0;
+  .p-component {
+    font-family: "Inter", sans-serif;
+  }
 }
 
 .body {
@@ -28,17 +31,7 @@ body {
   }
 }
 
-// Carousel Home
-
-.green {
-  background-color: green;
-}
-.blue {
-  background-color: blue;
-}
-.red {
-  background-color: red;
-}
+// Carousel Home start
 
 .p-element {
   flex-grow: 1;
@@ -60,10 +53,6 @@ body {
     position: relative;
   }
 
-  .p-carousel-container {
-    background-color: red;
-  }
-
   .p-carousel .p-carousel-indicators {
     position: absolute;
     bottom: 0;
@@ -80,6 +69,36 @@ body {
   .p-carousel-next {
     right: 0;
   }
+
+  .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+  }
+
+  .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+    background-color: white;
+  }
+
+  .p-carousel .p-carousel-indicators .p-carousel-indicator {
+    margin-right: 0.75rem;
+    margin-bottom: 0;
+  }
+
+  .pi {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .p-carousel .p-carousel-content .p-carousel-prev,
+  .p-carousel .p-carousel-content .p-carousel-next {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .p-link:disabled {
+    display: none;
+  }
 }
 
-// Carousel Home
+// Carousel Home end
