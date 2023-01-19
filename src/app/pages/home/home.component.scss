@@ -191,3 +191,23 @@
     background-position: 9% 0%;
   }
 }
+
+@media (max-width: 640px) {
+  .slide--container {
+    flex-direction: column;
+
+    max-width: 375px;
+  }
+
+  .slide__img img {
+    width: 100%;
+  }
+
+  .slide__buttons a {
+    flex-grow: 1;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}

@@ -102,3 +102,9 @@ body {
 }
 
 // Carousel Home end
+
+@media (max-width: 640px) {
+  html {
+    font-size: 62.5%;
+  }
+}
