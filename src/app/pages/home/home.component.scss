@@ -193,6 +193,14 @@
 }
 
 @media (max-width: 640px) {
+  .slide {
+    flex-grow: 1;
+
+    h1 {
+      margin: 0;
+    }
+  }
+
   .slide--container {
     flex-direction: column;
 
