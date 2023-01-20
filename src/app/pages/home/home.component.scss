@@ -96,7 +96,7 @@
 
   .slide__buttons {
     .hosted {
-      background-color: #46bb00;
+      background: linear-gradient(180deg, #46bb00 0%, hsl(98, 100%, 20%) 100%);
       border: 1px solid #5be40c;
     }
   }
@@ -104,27 +104,12 @@
 
 .clipz {
   background: rgb(42, 48, 68);
-  background: linear-gradient(
-    130deg,
-    hsl(223, 96%, 96%) 0%,
-
-    hsl(223, 96%, 64%) 100%
-  );
-
-  h1,
-  p,
-  a {
-    color: hsl(234, 89%, 24%);
-  }
+  background: linear-gradient(130deg, #737ff5 0%, hsl(223, 40%, 20%) 100%);
 
   .slide__buttons {
-    a {
-      border-color: #283044;
-    }
-
     .hosted {
-      background-color: hsl(344, 72%, 43%);
-      border: 1px solid hsl(344, 54%, 64%);
+      background: linear-gradient(180deg, #cc4b64 0%, #92266c 100%);
+      border: 1px solid #d5728c;
       color: white;
     }
   }
@@ -141,7 +126,11 @@
 
   .slide__buttons {
     .hosted {
-      background-color: hsl(193, 96%, 72%);
+      background: linear-gradient(
+        180deg,
+        hsl(193, 96%, 90%) 0%,
+        hsl(193, 96%, 40%) 100%
+      );
       border: 1px solid hsl(193, 96%, 88%);
       color: black;
     }
@@ -153,9 +142,9 @@
 .movie-db {
   background-size: 160% 160%;
 
-  -webkit-animation: AnimationName 5s ease infinite;
-  -moz-animation: AnimationName 5s ease infinite;
-  animation: AnimationName 5s ease infinite;
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
@@ -192,7 +181,7 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 912px) {
   .slide {
     height: auto;
     flex-grow: 1;
@@ -209,6 +198,7 @@
 
   .slide__img img {
     width: 100%;
+    max-width: fit-content;
   }
 
   .slide__buttons a {
@@ -217,5 +207,6 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    padding: 1rem 0;
   }
 }

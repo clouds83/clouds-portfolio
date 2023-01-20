@@ -115,7 +115,7 @@ footer {
 
 // Carousel Home end
 
-@media (max-width: 640px) {
+@media (max-width: 912px) {
   html {
     font-size: 75%;
   }
@@ -189,5 +189,11 @@ footer {
     p {
       font-size: 0.83333333rem;
     }
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 100%;
   }
 }
