@@ -108,7 +108,23 @@ body {
     font-size: 62.5%;
   }
 
+  .p-element .p-carousel,
+  .p-element .p-carousel-content,
+  .p-element .p-carousel-container,
+  .p-element .p-carousel-items-container {
+    flex-grow: 1;
+    display: flex;
+    height: auto;
+  }
+
   .p-carousel-item {
+    display: flex;
+  }
+
+  .p-element {
+    display: flex;
+  }
+  .p-carousel-items-content {
     display: flex;
   }
 }
