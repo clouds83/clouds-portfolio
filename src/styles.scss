@@ -108,6 +108,27 @@ body {
     font-size: 62.5%;
   }
 
+  body {
+    min-height: 100vh;
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
+    display: flex;
+  }
+
+  .body {
+    height: auto;
+    flex-grow: 1;
+  }
+
+  html {
+    height: fill-available;
+    height: -webkit-fill-available;
+  }
+
+  app-root {
+    display: flex;
+  }
+
   .p-element .p-carousel,
   .p-element .p-carousel-content,
   .p-element .p-carousel-container,
