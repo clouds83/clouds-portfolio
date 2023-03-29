@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
     this.slides = [
       {
         title: 'My Balance',
-        text: 'Web application for financial control created using the Angular framework.',
+        text: 'Projeto pessoal de controle financeiro criado com Angular.',
         projectClass: 'my-balance',
         hostedUrl: 'https://my-balance-clouds83.vercel.app/reports',
         githubUrl: 'https://github.com/clouds83/my-balance2',
@@ -23,7 +23,7 @@ export class HomeComponent implements OnInit {
       },
       {
         title: 'CLIPZ',
-        text: 'Short video platform for the gaming niche.',
+        text: 'Plataforma de vídeos curtos criado com Angular. Projeto de curso.',
         projectClass: 'clipz',
         hostedUrl: 'https://game-clips-clouds83.vercel.app/',
         githubUrl: 'https://github.com/clouds83/game-clips',
@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
       },
       {
         title: 'MovieDB',
-        text: 'Website that lists movies using a public API.',
+        text: 'Projeto de estudo de integração de API criado com Angular.',
         projectClass: 'movie-db',
         hostedUrl: 'https://movie-db-clouds83.vercel.app/',
         githubUrl: 'https://github.com/clouds83/movie-db',

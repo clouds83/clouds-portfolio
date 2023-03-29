@@ -83,6 +83,12 @@
     background: transparent;
     border: 1px solid white;
   }
+
+  .hosted {
+    border: 1px solid white;
+    background: white;
+    color: #222;
+  }
 }
 
 .my-balance {
@@ -94,12 +100,12 @@
     rgba(70, 187, 0, 1) 100%
   );
 
-  .slide__buttons {
-    .hosted {
-      background: linear-gradient(180deg, #46bb00 0%, hsl(98, 100%, 22%) 100%);
-      border: 1px solid hsl(98, 90%, 36%);
-    }
-  }
+  // .slide__buttons {
+  //   .hosted {
+  //     background: linear-gradient(180deg, #46bb00 0%, hsl(98, 100%, 22%) 100%);
+  //     border: 1px solid hsl(98, 90%, 36%);
+  //   }
+  // }
 }
 
 .clipz {
@@ -111,13 +117,13 @@
     hsl(234, 87%, 72%) 100%
   );
 
-  .slide__buttons {
-    .hosted {
-      background: linear-gradient(180deg, #cc4b64 0%, #92266c 100%);
-      border: 1px solid #d5728c;
-      color: white;
-    }
-  }
+  // .slide__buttons {
+  //   .hosted {
+  //     background: linear-gradient(180deg, #cc4b64 0%, #92266c 100%);
+  //     border: 1px solid #d5728c;
+  //     color: white;
+  //   }
+  // }
 }
 
 .movie-db {
@@ -129,17 +135,17 @@
     hsl(47, 100%, 32%) 100%
   );
 
-  .slide__buttons {
-    .hosted {
-      background: linear-gradient(
-        180deg,
-        hsl(193, 96%, 90%) 0%,
-        hsl(193, 96%, 40%) 100%
-      );
-      border: 1px solid hsl(193, 96%, 88%);
-      color: black;
-    }
-  }
+  // .slide__buttons {
+  //   .hosted {
+  //     background: linear-gradient(
+  //       180deg,
+  //       hsl(193, 96%, 90%) 0%,
+  //       hsl(193, 96%, 40%) 100%
+  //     );
+  //     border: 1px solid hsl(193, 96%, 88%);
+  //     color: black;
+  //   }
+  // }
 }
 
 .my-balance,
